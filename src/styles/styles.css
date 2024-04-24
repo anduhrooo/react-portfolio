@@ -1,0 +1,81 @@
+:root {
+    --primary-color:  #D1BB9E;
+    --secondary-color: #A79277;
+    --body-color: #FFF2E1;
+    --text-color: white;
+}
+
+* {
+    text-align: center;
+    list-style: none;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--body-color);
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.nav {
+    background-color: var(--primary-color);
+    padding: 20px;
+}
+
+.navTitles {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navLinks {
+    color: white;
+    font-size: 25px;
+}
+
+.portfolioLinks {
+    color: white;
+    font-size: 20px;
+}
+
+.card {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.form {
+    background-color: var(--primary-color);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 20px;
+    text-align: center;
+}
+
+.footerLinks {
+    color: white;
+}   
+
+.footerContacts {
+display: flex;
+justify-content: space-evenly;
+}
